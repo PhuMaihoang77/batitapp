@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.avata{
+    height: 120px;
+    margin-left: 30px;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    min-height: 1300px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 300px;
+    
+}
+.contact1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.ContactInfo ul{
+    position: relative;
+    margin: 30px;
+    
+    
+}
+.ContactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin-top: 10px ;
+    cursor: pointer;
+}
+.ContactInfo ul li .icon {
+    display: inline-block;
+    width: 100px;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 10px;
+    background: #526EFF;
+    border: none;
+    color: aliceblue;
+    
+}
+.ContactInfo ul li .text {
+    display: inline-block;
+    color: aliceblue;
+}
+.left_side{
+    position: relative;
+    background-image: linear-gradient(to bottom, #1BB5FE,#554FCB);
+    padding: 40px;
+}
+.right_side{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+.Skills ul{
+    display: flex;
+    justify-content: center;
+}
+.khung1_1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    font-family: Bradley Hand;
+    color: aliceblue;
+    background: #2DC7D4;
+    border:none;
+    font-size: 25px;
+    font-weight: 800px;
+}
+.khung1_2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    font-family: Britannic;
+    background: #001652;
+    color: #ADCDF2;
+    font-size: 25px;
+    font-weight: 800px;
+    border: none;
+}
+.khung1_3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 800px;
+    border: none;
+    font-family: Britannic;
+    background:#001652 ;
+    color:#F45426 ;
+}
+
+.khung2_1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 800px;
+    border: none;
+    font-family: Britannic;
+    background: #4A0353;
+    color: #F482FF;
+}
+.khung2_2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 800px;
+    border: none;
+    font-family: Britannic;
+    background: #4A0353;
+    color: #F482FF;
+}
+.khung2_3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 800px;
+    border: none;
+    font-family: Britannic;
+    background: #001652;
+    color:#F45426 ;
+}
+.expert{
+    position: relative;
+    width: 100%;
+    height:30px;
+    background: white;
+    display: block;
+    border-radius: 200px;
+    margin-top: 5px;
+}
+.best{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.Language li {
+    list-style:none ;
+}
+.Language h3 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.expert div{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    background: #10A9FF;
+    border-radius: 200px;
+}
+.Passions h3{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.Passions button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 10px;
+    background: #1BB5FE;
+    font-size: 20px;
+    border: none;
+    
+}
+.Passions ul{
+    display: flex;
+    justify-content: center;
+}
+.title{
+        color: white;
+        height: 90px;
+        background-image: linear-gradient(to right, #1BB5FE,#554FCB);
+       text-align: center;
+       
+}
+.profile{
+    margin-top: 0px;
+}
+
+.profile ul {
+    margin-top: 100px;
+}
+.profile li{
+    list-style: none;
+}
+.education li{
+    list-style: none;
+}
+.exper li{
+    list-style: none;
+}
+.icon1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+    background: #536EFF;
+    border: none;
+    margin: 10px;
+}
+.file{
+    font-size: 30px;
+    color: #574DCB;
+    font-weight: 800px;
+}
+.content{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.year{
+    border-: 1px solid black;
+    margin-top: 20px;
+}
+.content2{
+display: flex;
+flex-direction: row;
+
+
+}
+.year{
+    font-size: 30px;
+}
+.mess{
+    margin: 20px;
+    font-size: 20px;
+}
+.thanhdoc{
+   
+    height: 50%; 
+    width: 10%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left: 20px;
+    background: black;
+    border-radius: 100px;
+    border: none;
+}
+
+
+
+
+
+
+
+    
+    
+
+
